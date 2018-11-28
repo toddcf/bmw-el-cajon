@@ -1,0 +1,567 @@
+/* GLOBAL PAGE ELEMENT STYLES */
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  font-size: 13px;
+}
+
+/* These font-sizes sometimes need to be reduced on medium and small screens, but should be coded to spec for large screens */
+
+#marquee-headline {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-size: 3.6875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.marquee-content {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-size: 1.6875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: bold;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.promos-headline {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-size: 1.5rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: bold;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.promos-content {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-size: 1.1875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: normal;
+  line-height: 1.43;
+}
+
+.section-title {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-family: Arial, sans-serif;
+  font-size: 3rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: lighter;
+  line-height: 1.11;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.body-copy {
+  /*color: #fff;*/
+  /*color: #000;*/
+  font-size: 1.1875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  font-weight: normal;
+  line-height: 1.43;
+}
+
+.legal-content-max {
+  color: #666766;
+  font-size: 0.8125rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  line-height: 1.6;
+}
+
+.legal-content-min {
+  color: #666766;
+  font-size: 0.6875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
+  line-height: 1.6;
+}
+
+a.bmw-primary-btn-link {
+  background-color: transparent;
+}
+
+a.bmw-primary-btn-link,
+a.bmw-primary-btn-link:active,
+a.bmw-primary-btn-link:hover,
+a.bmw-primary-btn-link:focus {
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+}
+
+/* BUTTONS */
+.bmw-primary-btn-wrapper {
+  display: block;
+  position: relative;
+  width: 191px; /* BMW mandate */
+  height: 51px; /* BMW mandate */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(28,98,197,1)), color-stop(50%, rgba(28,105,211,1)), color-stop(100%, rgba(28,105,211,1)), to(rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(top, rgba(28,98,197,1) 0%, rgba(28,105,211,1) 50%, rgba(28,105,211,1) 100%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(top, rgba(28,98,197,1) 0%, rgba(28,105,211,1) 50%, rgba(28,105,211,1) 100%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom, rgba(28,98,197,1) 0%, rgba(28,105,211,1) 50%, rgba(28,105,211,1) 100%, rgba(255,255,255,1) 100%); /* BMW mandate */
+  background-position: left top;
+  background-size: 100% 200%;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.bmw-primary-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  font-weight: bold;
+  font-size: 14px; /* BMW mandate */
+  text-transform: uppercase; /* BMW mandate */
+  color: #fff; /* BMW mandate */
+  width: 100%;
+  text-align: center;
+}
+
+.bmw-primary-btn-wrapper:hover,
+.bmw-primary-btn-wrapper:active,
+.bmw-primary-btn-wrapper:focus {
+  background-color: transparent;
+  background-position: left bottom;
+  color: #fff;
+}
+
+.bmw-secondary-btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#666766), to(#979799));
+  background: -webkit-linear-gradient(#666766, #979799);
+  background: -o-linear-gradient(#666766, #979799);
+  background: linear-gradient(#666766, #979799); /* BMW mandate */
+}
+
+.bmw-secondary-btn:hover,
+.bmw-secondary-btn:active,
+.bmw-secondary-btn:focus {
+  background: #b5b5b5; /* BMW mandate */
+}
+
+.safety-area {
+  margin: 0 auto;
+  max-width: 1268px; /* BMW mandate */
+  width: 100%;
+}
+
+.nineteen-hundred {
+  margin: 0 auto;
+  max-width: 1900px; /* BMW mandate */
+  width: 100%;
+}
+
+
+
+/* CUSTOMIZED STYLES */
+
+section {
+  margin-bottom: 50px;
+}
+
+#h1-container {
+  padding: 50px 15px 30px 15px;
+}
+
+#exterior-section-img,
+#interior-section-img {
+  margin-bottom: 30px;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.card-body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededee));
+  background: -webkit-linear-gradient(#fff, #ededee);
+  background: -o-linear-gradient(#fff, #ededee);
+  background: linear-gradient(#fff, #ededee);
+}
+
+.module-overlay-left {
+  padding: 15px;
+  text-align: center;
+}
+
+.module-overlay-left .bmw-primary-btn-wrapper {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+/* Bootstrap 4 Media Queries */
+
+/* Extra small devices only (portrait phones, below 576px) */
+@media (max-width: 575px) {
+
+  #marquee-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94533c0b3.jpg) no-repeat center; /* 576 x 324 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #exterior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfabc9ebfba.jpg) no-repeat center; /* 576 x 293 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #interior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0ad0915954.jpg) no-repeat center; /* 576 x 293 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #engine-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd097390a77b.jpg) no-repeat center; /* 576 x 324 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cost-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfb5edd3d3b.jpg) no-repeat center; /* 576 x 324 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #release-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0b37b017be.jpg) no-repeat center; /* 576 x 324 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #seating-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0afa6a358c.jpg) no-repeat center; /* 576 x 324 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cta-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0e5940a0eb.jpg) no-repeat center; /* 576 x 227 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Small devices only (landscape phones, between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #marquee-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf948ab3d50.jpg) no-repeat center; /* 768 x 432 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #exterior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfacde4cceb.jpg) no-repeat center; /* 768 x 390 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #interior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0abfc716cb.jpg) no-repeat center; /* 768 x 390 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #engine-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd09764f1de4.jpg) no-repeat center; /* 634 x 357 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cost-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfb666a6b5a.jpg) no-repeat center; /* 768 x 384 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #release-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0b40446242.jpg) no-repeat center; /* 768 x 432 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #seating-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0afd81df57.jpg) no-repeat center; /* 600 x 338 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cta-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0e5c8657d0.jpg) no-repeat center; /* 768 x 303 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  section {
+    margin-bottom: 100px;
+  }
+
+}
+
+/* Medium devices only (tablets, between 768px and 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #marquee-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94b43d767.jpg) no-repeat center; /* 992 x 558 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #exterior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfad129f6aa.jpg) no-repeat center; /* 992 x 504 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #interior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0ac2cdc61c.jpg) no-repeat center; /* 992 x 504 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #engine-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd09702874e1.jpg) no-repeat center; /* 496 x 279 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cost-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfb6a5099c6.jpg) no-repeat center; /* 496 x 279 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #release-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0b452e312b.jpg) no-repeat center; /* 496 x 279 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #seating-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0af688ee59.jpg) no-repeat center; /* 496 x 279 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cta-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0e68ddb401.jpg) no-repeat center; /* 992 x 391 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  html {
+    font-size: 16px; /* DO NOT CHANGE OR PAGE WILL BE NON-COMPLIANT */
+  }
+
+  #marquee-headline {
+    color: #fff;
+    text-align: right;
+  }
+
+  #h1-container .bmw-primary-btn-wrapper {
+    float: right;
+  }
+
+  #exterior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfade8e8a9b.jpg) no-repeat center; /* 1268 x 644 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #interior-section-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0ac80f041e.jpg) no-repeat center; /* 1268 x 644 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
+  #engine-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd09764f1de4.jpg) no-repeat center; /* 634 x 357 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cost-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfb6e5c11b3.jpg) no-repeat center; /* 600 x 338 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #release-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0b496a1c74.jpg) no-repeat center; /* 634 x 357 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #seating-img {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0afd81df57.jpg) no-repeat center; /* 600 x 338 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #cta-img-sm {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0e7f1ac98c.jpg) no-repeat center; /* 1268 x 499 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+  }
+
+}
+
+/* Large devices only (desktops, between 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #marquee-img-lg {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94d1638c2.jpg) no-repeat center; /* 1200 x 675 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #marquee-img-lg {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94f964ee2.jpg) no-repeat center; /* 1900 x 1069 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56.25%;
+    width: 100%;
+  }
+
+  #h1-container {
+    padding: 80px 15px 30px 15px;
+  }
+
+  #cta-img-lg {
+    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd0e7f1ac98c.jpg) no-repeat center; /* 1268 x 499 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  .module-overlay-left {
+    background: #fff;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    right: 57%;
+    text-align: left;
+  }
+
+  .module-overlay-left .bmw-primary-btn-wrapper {
+    margin: 0;
+  }
+
+}
+
+/* 1300px and up */
+@media (min-width: 1300px) {
+
+  #h1-container {
+    padding: 100px 15px 30px 15px;
+  }
+
+}
