@@ -63,3 +63,11 @@ So I put a lot of work into figuring out a way to achieve the same effect smooth
   color: #fff;
 }
 ```
+
+Essentially, there is a background for the button that is twice the size of the displayed button.
+
+The background has a linear gradient, but the color change stops at the halfway point, and then becomes a solid color for the other half.
+
+That background is positioned so that you only see the half with the color change by default. When you hover, the position switches to display the half with the solid color.
+
+And then I've added a transition, so that the background is essentially "sliding" upon hover, giving it the appearance of a smooth change from a linear gradient to a solid color.
