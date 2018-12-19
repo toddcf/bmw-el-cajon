@@ -220,15 +220,7 @@ section {
   }
 
   #exterior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd2005943c1b.jpg) no-repeat center; /* 576 x 293 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 50.8125%;
-    width: 100%;
-  }
-
-  #interior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd227cfd42ca.jpg) no-repeat center; /* 576 x 293 */
+    background: url(../img/2019-8-series/racecar-streetcar/576x293-min.jpg) no-repeat center; /* 576 x 293 */
     background-size: cover;
     height: 0;
     padding-bottom: 50.8125%;
@@ -236,7 +228,7 @@ section {
   }
 
   #ext-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd20a03da8ef.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-8-series/overhead-hood/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -244,15 +236,23 @@ section {
   }
 
   #ext-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd220397638c.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-8-series/three-quarter-driver/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
     width: 100%;
   }
 
+  #interior-section-img {
+    background: url(../img/2019-8-series/dark-profile/576x293-min.jpg) no-repeat center; /* 576 x 293 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
   #int-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd22c3869a30.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-8-series/media-display/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -260,7 +260,7 @@ section {
   }
 
   #int-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd233166a433.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-8-series/gear-shifter/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -268,7 +268,7 @@ section {
   }
 
   #cta-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23dac48dc8.jpg) no-repeat center; /* 576 x 227 */
+    background: url(../img/2019-8-series/brown-int/576x227-min.jpg) no-repeat center; /* 576 x 227 */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -293,15 +293,7 @@ section {
   }
 
   #exterior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd2008e9d29d.jpg) no-repeat center; /* 768 x 390 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 50.8125%;
-    width: 100%;
-  }
-
-  #interior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd227f2f0cfc.jpg) no-repeat center; /* 768 x 390 */
+    background: url(../img/2019-8-series/racecar-streetcar/768x390-min.jpg) no-repeat center; /* 768 x 390 */
     background-size: cover;
     height: 0;
     padding-bottom: 50.8125%;
@@ -309,7 +301,7 @@ section {
   }
 
   #ext-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd20a5a5b55c.jpg) no-repeat center; /* 768 x 432 */
+    background: url(../img/2019-8-series/overhead-hood/768x432-min.jpg) no-repeat center; /* 768 x 432 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -317,15 +309,23 @@ section {
   }
 
   #ext-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd21da43a103.jpg) no-repeat center; /* 768 x 432 */
+    background: url(../img/2019-8-series/three-quarter-driver/768x432-min.jpg) no-repeat center; /* 768 x 432 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
     width: 100%;
   }
 
+  #interior-section-img {
+    background: url(../img/2019-8-series/dark-profile/768x390-min.jpg) no-repeat center; /* 768 x 390 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
   #int-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd22f4f73696.jpg) no-repeat center; /* 768 x 432 */
+    background: url(../img/2019-8-series/media-display/768x432-min.jpg) no-repeat center; /* 768 x 432 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -333,7 +333,7 @@ section {
   }
 
   #int-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23349eec71.jpg) no-repeat center; /* 768 x 432 */
+    background: url(../img/2019-8-series/gear-shifter/768x432-min.jpg) no-repeat center; /* 768 x 432 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -341,7 +341,7 @@ section {
   }
 
   #cta-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23dd85b95c.jpg) no-repeat center; /* 768 x 303 */
+    background: url(../img/2019-8-series/brown-int/768x303-min.jpg) no-repeat center; /* 768 x 303 */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -372,15 +372,7 @@ section {
   }
 
   #exterior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd200b1221d6.jpg) no-repeat center; /* 992 x 504 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 50.8125%;
-    width: 100%;
-  }
-
-  #interior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd2282b6cbda.jpg) no-repeat center; /* 992 x 504 */
+    background: url(../img/2019-8-series/racecar-streetcar/992x504-min.jpg) no-repeat center; /* 992 x 504 */
     background-size: cover;
     height: 0;
     padding-bottom: 50.8125%;
@@ -388,7 +380,7 @@ section {
   }
 
   #ext-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd20ac22df6f.jpg) no-repeat center; /* 496 x 279 */
+    background: url(../img/2019-8-series/overhead-hood/496x279-min.jpg) no-repeat center; /* 496 x 279 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -396,15 +388,23 @@ section {
   }
 
   #ext-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd21df85b837.jpg) no-repeat center; /* 496 x 279 */
+    background: url(../img/2019-8-series/three-quarter-driver/496x279-min.jpg) no-repeat center; /* 496 x 279 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
     width: 100%;
   }
 
+  #interior-section-img {
+    background: url(../img/2019-8-series/dark-profile/992x504-min.jpg) no-repeat center; /* 992 x 504 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
   #int-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd22f9d83033.jpg) no-repeat center; /* 496 x 279 */
+    background: url(../img/2019-8-series/media-display/496x279-min.jpg) no-repeat center; /* 496 x 279 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -412,7 +412,7 @@ section {
   }
 
   #int-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd233ee55ee8.jpg) no-repeat center; /* 496 x 279 */
+    background: url(../img/2019-8-series/gear-shifter/496x279-min.jpg) no-repeat center; /* 496 x 279 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -420,7 +420,7 @@ section {
   }
 
   #cta-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23dfbab5df.jpg) no-repeat center; /* 992 x 391 */
+    background: url(../img/2019-8-series/brown-int/992x391-min.jpg) no-repeat center; /* 992 x 391 */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -455,15 +455,7 @@ section {
   }
 
   #exterior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd200dd3e2ad.jpg) no-repeat center; /* 1268 x 644 */
-    background-size: cover;
-    height: 0;
-    padding-bottom: 50.8125%;
-    width: 100%;
-  }
-
-  #interior-section-img {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd228487070c.jpg) no-repeat center; /* 1268 x 644 */
+    background: url(../img/2019-8-series/racecar-streetcar/1268x644-min.jpg) no-repeat center; /* 1268 x 644 */
     background-size: cover;
     height: 0;
     padding-bottom: 50.8125%;
@@ -471,7 +463,7 @@ section {
   }
 
   #ext-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd20ae5cee57.jpg) no-repeat center; /* 634 x 357 */
+    background: url(../img/2019-8-series/overhead-hood/634x357-min.jpg) no-repeat center; /* 634 x 357 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -479,15 +471,23 @@ section {
   }
 
   #ext-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd21e3ee3a0b.jpg) no-repeat center; /* 634 x 357 */
+    background: url(../img/2019-8-series/three-quarter-driver/634x357-min.jpg) no-repeat center; /* 634 x 357 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
     width: 100%;
   }
 
+  #interior-section-img {
+    background: url(../img/2019-8-series/dark-profile/1268x644-min.jpg) no-repeat center; /* 1268 x 644 */
+    background-size: cover;
+    height: 0;
+    padding-bottom: 50.8125%;
+    width: 100%;
+  }
+
   #int-card-img-1 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd22fc5dc743.jpg) no-repeat center; /* 634 x 357 */
+    background: url(../img/2019-8-series/media-display/634x357-min.jpg) no-repeat center; /* 634 x 357 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -495,7 +495,7 @@ section {
   }
 
   #int-card-img-2 {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd234156d9ee.jpg) no-repeat center; /* 634 x 357 */
+    background: url(../img/2019-8-series/gear-shifter/634x357-min.jpg) no-repeat center; /* 634 x 357 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -503,7 +503,7 @@ section {
   }
 
   #cta-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23e193e0f6.jpg) no-repeat center; /* 1268 x 499 */
+    background: url(../img/2019-8-series/brown-int/1268x499-min.jpg) no-repeat center; /* 1268 x 499 */
     background-size: cover;
     width: 100%;
     height: 0;
@@ -541,7 +541,7 @@ section {
   }
 
   #cta-img-lg {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd23e193e0f6.jpg) no-repeat center; /* 1268 x 499 */
+    background: url(../img/2019-8-series/brown-int/1268x499-min.jpg) no-repeat center; /* 1268 x 499 */
     background-size: cover;
     width: 100%;
     height: 0;
