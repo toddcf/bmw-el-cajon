@@ -212,7 +212,7 @@ section {
 @media (max-width: 575px) {
 
   #marquee-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bd1eae7982b6.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-8-series/dark-waterfront/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
