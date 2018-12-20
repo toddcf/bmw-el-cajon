@@ -1,6 +1,6 @@
 # BMW of El Cajon
 
-## Techniques Learned
+## Techniques
 
 ### BMW Button Hover Effects
 
@@ -71,3 +71,24 @@ The background has a linear gradient, but the color change stops at the halfway 
 That background is positioned so that you only see the half with the color change by default. When you hover, the position switches to display the half with the solid color.
 
 And then I've added a transition, so that the background is essentially "sliding" upon hover, giving it the appearance of a smooth change from a linear gradient to a solid color.
+
+### Subtle H1 Gradient
+
+On the [BMW Series 8 page](https://www.google.com), the white H1 font sometimes winds up overlaying the bright white lights in the background image, depending on screen size.
+
+To combat this, I added a very subtle linear gradient background to the text that goes from transparent on the top, to a 20% opacity black in the center, to transparent again on the bottom. Hopefully you don't notice it -- but the text becomes readable as a result.
+
+#### HTML
+
+`<h1 id="marquee-headline"><span class="shaded">New BMW 8 Series</span></h1>`
+
+#### CSS
+
+```
+.shaded {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(rgba(0,0,0,0.2)), to(rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+    background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2), rgba(0,0,0,0));
+  }
+  ```
