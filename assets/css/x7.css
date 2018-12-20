@@ -16,7 +16,7 @@
 @media (max-width: 575px) {
 
   #marquee-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94533c0b3.jpg) no-repeat center; /* 576 x 324 */
+    background: url(../img/2019-x7/desert-front-quarter/576x324-min.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -89,7 +89,7 @@
 @media (min-width: 576px) and (max-width: 767px) {
 
   #marquee-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf948ab3d50.jpg) no-repeat center; /* 768 x 432 */
+    background: url(../img/2019-x7/desert-front-quarter/768x432-min.jpg) no-repeat center; /* 768 x 432 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -168,7 +168,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   #marquee-img-sm {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94b43d767.jpg) no-repeat center; /* 992 x 558 */
+    background: url(../img/2019-x7/desert-front-quarter/992x558-min.jpg) no-repeat center; /* 992 x 558 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -308,7 +308,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
   #marquee-img-lg {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94d1638c2.jpg) no-repeat center; /* 1200 x 675 */
+    background: url(../img/2019-x7/desert-front-quarter/1200x675-min.jpg) no-repeat center; /* 1200 x 675 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;
@@ -321,7 +321,7 @@
 @media (min-width: 1200px) {
 
   #marquee-img-lg {
-    background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcf94f964ee2.jpg) no-repeat center; /* 1900 x 1069 */
+    background: url(../img/2019-x7/desert-front-quarter/1900x1069-min.jpg) no-repeat center; /* 1900 x 1069 */
     background-size: cover;
     height: 0;
     padding-bottom: 56.25%;

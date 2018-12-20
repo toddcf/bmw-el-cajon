@@ -1,12 +1,11 @@
 # To Do
 
 - X7:
-  - Restructure directory to match that of the 8 Series.
-  - Link up locally hosted Bootstrap.
-  - Add footer.
-  - Host all images.
+  - Host all images. (#marquee-img is done. Continue from there.)
+- Then add 1440 x 440 img to README.
 - Make a hub?
 - Run deployment checklist.
 - Push to gh-pages.
+  - Then update README to include the Series 8's URL under "H1 Gradient."
 - Add to portfolio & deploy portfolio.
 - Delete this file.
