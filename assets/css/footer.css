@@ -1,0 +1,44 @@
+footer {
+  background: #000;
+  /*border-top: 3px solid #e6231e;*/
+  color: #fff;
+  padding: 3em 0;
+  text-align: center;
+}
+
+footer p {
+  font-family: Helvetica, sans-serif;
+}
+
+/*footer a:active,
+footer a:focus,
+footer a:link,
+footer a:visited {
+  border-bottom: 1px solid #e6231e;
+  color: #e6231e;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}*/
+
+
+
+
+/* (between 1024px and 1440px) */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  footer {
+    border-top: none;
+  }
+
+}
+
+#nsx-footer {
+  border-top: 3px solid #e6231e;
+}

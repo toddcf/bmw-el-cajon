@@ -1,7 +1,5 @@
 # To Do
 
-- 8 Series
-  - Add footer.
 - X7:
   - Restructure directory to match that of the 8 Series.
   - Link up locally hosted Bootstrap.
