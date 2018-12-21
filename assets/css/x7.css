@@ -48,6 +48,7 @@
   }
 
   #cost-img {
+    /* DESERT WIDER ANGLE */
     background: url(https://s3.amazonaws.com/fzautomotive/dealers/5bcfb5edd3d3b.jpg) no-repeat center; /* 576 x 324 */
     background-size: cover;
     height: 0;
