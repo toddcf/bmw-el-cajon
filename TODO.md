@@ -1,7 +1,7 @@
 # To Do
 
 - X7:
-  - Host all images. (RESUME: #seating-img is done.)
+  - Host all images. (RESUME: #seating-img.)
 - Then add 1440 x 440 img to README.
 - Make a hub?
 - Run deployment checklist.
