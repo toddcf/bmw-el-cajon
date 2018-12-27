@@ -1,0 +1,163 @@
+.module-overlay-left,
+.module-overlay-right {
+  padding: 15px;
+}
+
+.module-overlay-left .bmw-primary-btn-wrapper,
+.module-overlay-left .bmw-secondary-btn-wrapper {
+  margin: 0 auto 1rem auto;
+}
+
+.section-title {
+  padding: 0 0 0.5rem 0;
+}
+
+
+
+
+/* Bootstrap 4 Media Queries */
+
+/* Extra small devices only (portrait phones, below 576px) */
+@media (max-width: 575px) {
+
+  #x7-img-sm {
+    background: url(../img/2019-x7/overhead-helipad/576x227-min.jpg) no-repeat center; /* 576 x 227 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  #series-8-img-sm {
+    background: url(../img/2019-8-series/convertible-ocean-view/576x227-min.jpg) no-repeat center; /* 576 x 227 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .module-overlay-left .bmw-primary-btn-wrapper,
+  .module-overlay-left .bmw-secondary-btn-wrapper {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+  }
+
+  .section-title {
+    text-align: left;
+  }
+
+}
+
+/* Small devices only (landscape phones, between 576px and 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+  #x7-img-sm {
+    background: url(../img/2019-x7/overhead-helipad/768x303-min.jpg) no-repeat center; /* 768 x 303 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  #series-8-img-sm {
+    background: url(../img/2019-8-series/convertible-ocean-view/768x303-min.jpg) no-repeat center; /* 768 x 303 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  section {
+    margin-bottom: 100px;
+  }
+
+}
+
+/* Medium devices only (tablets, between 768px and 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  #x7-img-sm {
+    background: url(../img/2019-x7/overhead-helipad/992x391-min.jpg) no-repeat center; /* 992 x 391 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  #series-8-img-sm {
+    background: url(../img/2019-8-series/convertible-ocean-view/992x391-min.jpg) no-repeat center; /* 992 x 391 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  #x7-img-lg {
+    background: url(../img/2019-x7/overhead-helipad/1268x499-min.jpg) no-repeat center; /* 1268 x 499 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  #series-8-img-lg {
+    background: url(../img/2019-8-series/convertible-ocean-view/1268x499-min.jpg) no-repeat center; /* 1268 x 499 */
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 39.375%;
+    position: relative;
+  }
+
+  .module-overlay-left {
+    background: #fff;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    right: 57%;
+    text-align: left;
+  }
+
+  .module-overlay-right {
+    background: #fff;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 57%;
+    right: 30px;
+    text-align: left;
+  }
+
+}
+
+/* Large devices only (desktops, between 992px and 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* 1300px and up */
+@media (min-width: 1300px) {}
