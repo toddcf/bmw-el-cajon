@@ -1,9 +1,7 @@
 # To Do
 
-- X7:
-  - Host all images. (RESUME: #seating-img.)
 - Then add 1440 x 440 img to README.
-- Make a hub?
+- Make a hub
 - Run deployment checklist.
 - Push to gh-pages.
   - Then update README to include the Series 8's URL under "H1 Gradient."
