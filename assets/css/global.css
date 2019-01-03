@@ -93,12 +93,14 @@ body a:hover {
 /* BUTTONS */
 a.bmw-primary-btn-link {
   background-color: transparent;
+  border-bottom: none;
 }
 
 a.bmw-primary-btn-link,
 a.bmw-primary-btn-link:active,
 a.bmw-primary-btn-link:hover,
 a.bmw-primary-btn-link:focus {
+  border-bottom: none;
   color: #fff;
   outline: 0;
   text-decoration: none;
@@ -151,12 +153,14 @@ a.bmw-primary-btn-link:focus {
 
 a.bmw-secondary-btn-link {
   background-color: transparent;
+  border-bottom: none;
 }
 
 a.bmw-secondary-btn-link,
 a.bmw-secondary-btn-link:active,
 a.bmw-secondary-btn-link:hover,
 a.bmw-secondary-btn-link:focus {
+  border-bottom: none;
   color: #fff;
   outline: 0;
   text-decoration: none;

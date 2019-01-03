@@ -1,7 +1,7 @@
 # To Do
 
 - Make a hub
-  - Buttons: `display: inline-block;` is creating an underscore. Figure out how to remove it. (It may be some sort of `text-decoration` because it changes colors when hovered over.)
+  - Mobile responsiveness, especially for 8 series.
 - Add 1440 x 440 img to README.
 - Run deployment checklist.
 - Push to gh-pages.
