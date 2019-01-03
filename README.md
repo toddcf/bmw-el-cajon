@@ -1,6 +1,6 @@
 # BMW of El Cajon
 
-![BMW of El Cajon](https://raw.githubusercontent.com/toddcf/bmw-el-cajon/assets/img/2019-x7/overhead-helipad/1268x499-min.jpg "BMW of El Cajon")
+![BMW of El Cajon](https://github.com/toddcf/bmw-el-cajon/assets/img/2019-x7/overhead-helipad/1268x499-min.jpg "BMW of El Cajon")
 
 ### Technology Used
 
