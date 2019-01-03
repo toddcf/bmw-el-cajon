@@ -6,6 +6,10 @@ html {
   font-size: 13px;
 }
 
+body {
+  overflow-x: hidden; /* Required to get rid of unwanted horizontal scrollbar */
+}
+
 body a {
   border-bottom: 1px solid #b5b5b5;
   color: #b5b5b5;
@@ -211,15 +215,16 @@ a.bmw-secondary-btn-link:focus {
 
 
 
-.safety-area {
+.nineteen-hundred {
+  display: block;
   margin: 0 auto;
-  max-width: 1268px; /* BMW mandate */
+  max-width: 1920px; /* BMW mandate */
   width: 100%;
 }
 
-.nineteen-hundred {
+.safety-area {
   margin: 0 auto;
-  max-width: 1900px; /* BMW mandate */
+  max-width: 1268px; /* BMW mandate */
   width: 100%;
 }
 
