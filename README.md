@@ -87,7 +87,7 @@ And then I've added a transition, so that the background is essentially "sliding
 
 ### Subtle H1 Gradient
 
-On the [BMW Series 8 page](https://www.google.com), the white H1 font sometimes winds up overlaying the bright white lights in the background image, depending on screen size.
+On the [BMW Series 8 page](https://toddcf.github.io/bmw-el-cajon/8-series.html), the white H1 font sometimes winds up overlaying the bright white lights in the background image, depending on screen size.
 
 To combat this, I added a very subtle linear gradient background to the text that goes from transparent on the top, to a 20% opacity black in the center, to transparent again on the bottom. Hopefully you don't notice it -- but the text becomes readable as a result.
 
