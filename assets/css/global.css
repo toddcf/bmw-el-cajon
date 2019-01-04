@@ -14,6 +14,8 @@ body a {
   border-bottom: 1px solid #b5b5b5;
   color: #b5b5b5;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -26,8 +28,6 @@ body a:hover {
 /* These font-sizes sometimes need to be reduced on medium and small screens, but should be coded to spec for large screens */
 
 #marquee-headline {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-size: 3.6875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: bold;
   line-height: 1;
@@ -36,8 +36,6 @@ body a:hover {
 }
 
 .marquee-content {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-size: 1.6875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: bold;
   line-height: 1.25;
@@ -45,8 +43,6 @@ body a:hover {
 }
 
 .promos-headline {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-size: 1.5rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: bold;
   line-height: 1.22;
@@ -54,16 +50,12 @@ body a:hover {
 }
 
 .promos-content {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-size: 1.1875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: normal;
   line-height: 1.43;
 }
 
 .section-title {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-family: Arial, sans-serif;
   font-size: 3rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: lighter;
@@ -75,8 +67,6 @@ body a:hover {
 }
 
 .body-copy {
-  /*color: #fff;*/
-  /*color: #000;*/
   font-size: 1.1875rem; /* DO NOT CHANGE - ADJUST `html { font-size }` ABOVE TO KEEP ALL TEXT RELATIVE AND COMPLIANT */
   font-weight: normal;
   line-height: 1.43;

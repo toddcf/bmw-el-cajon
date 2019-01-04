@@ -1,8 +1,10 @@
 # BMW of El Cajon
 
+Landing pages I designed and coded for the 2019 BMW 8 Series and X7. Recreated here for portfolio purposes.
+
 ![BMW of El Cajon](https://github.com/toddcf/bmw-el-cajon/assets/img/2019-x7/overhead-helipad/1268x499-min.jpg "BMW of El Cajon")
 
-### Technology Used
+## Technology Used
 
 - HTML5
 - CSS3
